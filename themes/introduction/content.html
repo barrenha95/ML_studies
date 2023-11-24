@@ -1,15 +1,64 @@
 <h1>Introduction to Machine Learning</h1>
 <h2>What is Machine Learning?</h2>
-Artificial Intelligence > Machine Learning > Deep Learning
+<p>Artificial Intelligence > Machine Learning > Deep Learning</p>
 <ul>
     <li>Artificial Intelligence: Machines that mimic human Intelligence and cognitive functions.</li>
     <li>Machine Learning: Algorithms trained with data to make preditions.</li>
     <li>Deep Learning: Subset of Machine Learning with automated feature extraction.</li>
 </ul>
 <h2>How is the learning process?</h2>
-<h3></h3>
-<p></p>
 
+<ol>
+    <li><u>Business Problem</u>: Understand which problem I want to solve doing things like talk with stakeholders.</li>
+    <li><u>DataAnalysis</u>: A deep dive into the available data to understand what we can learn from that and even where can we go with it.</li>
+    <li><u>Data preparation</u>: Is the procces of handling and cleaning the data. </li>
+    <li><u>Modeling</u>: Is the creation of the Machine Learning model with the prepared data.</li>
+    <li><u>Evaluation</u>: Evaluation of the Machine Learning model using metrics.</li>
+    <li><u>Deploy</u>: Deploy the Machine Learning model to productive environment, using it to take decisions.</li>
+</ol>
+
+<h2>Types of learning</h2>
 <ul>
-
+    <li>Supervised: I teach my model what was righ and wrong in the past, and it try to reproduce my decisions with new data.</li>
+    <li>Unsupervised: I give a sample of data and the model learns by itself splitting the data into groups based on how they are similiar to each other.</li>
+    <li>Reinforcement: I gave rules of a universe to the model iteract and it evolves based on trial and error.</li>
 </ul>
+
+<h3>Supervised Learning</h3>
+<p>In this type of learning, the model make predictions using data from the past.</p>
+
+<h4>Classification</h4>
+<p>The objective is to predict from which class an new event is using data from previous events that we know their classifications.</p>
+<p>To make predictions I use many features to create a mathematical formula that can explain (or be near to explain) this relationship (between de features [x] and the target [y])</p>
+<p><i>Example</i>: I want to know if somebody have a decease or not using historical data of people that has and hasn't the decease.</p>
+
+<h4>Regression</h4>
+<p>It's similar to the Classification but the objective here is to predict the value of an event.</p>
+<p>The mathematical idea of this method is to create a function that explains the behaviour of the problem, using two coeficients α(intercept) and  β(slope).</p>
+<p><i>Example</i>: I want to know how much does this house costs.</p>
+
+<h3>Unsupervised Learning</h3>
+<p>In this type of learning, we don't know the outputs, so I give only the inputs to the model. The model is responsible to find patterns and cluster the data based on how they are similiar.</p>
+<p><i>Examples of clustering models:</i></p>
+<ul>
+    <li>K-means.</li>
+    <li>Singular Value Decomposition (SVD).</li>
+    <li>Principal Component Analysis(PCA).</li>
+</ul>
+
+<h3>Reinforcement Learning</h3>
+<p>In this type of learning, the model learns based on trial and error. It is used in robotics and game development.</p>
+<p>For each iteraction of the model and the environment, the model receives a reward and learns with it. It's similiar to train dogs to make tricks.</p>
+
+<h2>How tho choose the correct Algorithm?</h2>
+<p>It depends of the problem. I need to know the context like which business problem is, how much time I have, how much money I have to use.</p>
+
+<h3>Six factors to choose the Algorithm</h3>
+<ol>
+    <li><u>Precision</u>: How precise is the model. There is a trade of, a very precise model can be overfitted and do not be applied to real data.</li>
+    <li><u>Time to train</u>: Some models can be very slow to train</li>
+    <li><u>Resources</u>: How much resources can I use. </li>
+    <li><u>Type of problem</u>: What is the question I'm looking for answer.</li>
+    <li><u>Linearity</u>: If there is any linearity that can explain the behaviour of this phenomenon.</li>
+    <li><u>Number of parameters</u>: Some Algorithms can become very heavy with many algorithms.</li>
+</ol>
