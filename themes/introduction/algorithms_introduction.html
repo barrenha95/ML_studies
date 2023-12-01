@@ -1,0 +1,35 @@
+<h1>Machine Learning Algorithms</h1>
+<h2>Descritive models</h2>
+<p>Business Intelligence is an example of this type of model.</p>
+<p>The objective is to look to the past and understand what happened.</p>
+<p>Example: How much new customers we got last year?</p>
+<h2>Predictive Models</h2>
+<p>The difference of this type of model to descritive models is the hability to foresee phenomenons.</p>
+<p>In other words, the preditive models use data from the past to predict what will happen in the future, while the descritive model use the data from the pas to understand what happened in the past.</p>
+<p>The predictive model is a approximate mathematical function created with data that can foresee phenomenons.</p>
+<h3>Supervisioned Learning</h3>
+<h3>Non-supervisioned Learning</h3>
+<h4>Instance based methods</h4>
+<p>The idea of the instance based methods is to storage the training examples the generalization is only made when the new instance is materialized.</p>
+<p>The idea is calculate the distance between the new instance (for example a request) and the training data. The answer is the same as the nearest point in the training data.</p>
+<p>There are some discussions in the academy if it is a model or just an automation, regardless that philosofical issue, the point is that being a model or not, it has the power to solve problems.</p>
+<p>Example of models of this type:</p>
+KNN - K - Nearest Neighbours
+<h5>How the ponderation of distance is made?</h5>
+<h6>Continuous data</h6>
+<p>We use the euclidian distance (remember of pythagoras theorem, making a triangle.) but the distance Manhattan can be used too when we want to give difference weights to each feature.</p>
+<p>To balance the difference between units, we use to normalize the data between [0,1](preprocessing method).</p>
+<p>We have other distance metrics to specific situations:</p>
+<ul>
+    <li><i>Pearson Correlation</i>: Ample use in the bioinformatics and statistics.</li>
+    <li><i>Cosine Similarity</i>: Ample use in text classification and high-dimensional data.</li>
+    <li><i>Edit Distance</i>: Used to measure the distance between strings, ample use in text classification and bioinformatics.</li>
+</ul>
+<h6>Discrete data</h6>
+<p>If the value is equal, then the distance is 0. If the value is not equal the distance is 1.</p>
+<h5>Pros and cons</h5>
+<p>A big benefit of this method is that we don't need to know which type of distribution the data has.</p>
+<p>A bad thing using this method is that all the processing is made in the time the instance appears, so the processing time can be a bit slowly because to work it needs to compare the new instance with all data of the training dataset.</p>
+<h4>Probabilistic methods</h4>
+<h4>Search-based methods</h4>
+<h4>Optimization based methods</h4>
