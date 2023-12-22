@@ -68,10 +68,30 @@
 <p>Recurrent Neural Networks (RNN): Alows storage info into memory, using those previous results to proccess the next input. An example of use is the suggestion of the next word when someone is typing.</p>
 <p>Kohohen network: The perpectron are handled like a collection.</p>
 <p>Hopfield network.</p>
-<h4>Machine learning with ensemble methoss</h4>
+<h4>Machine learning with ensemble methods</h4>
 <p>It's usually used to win data competitions, achieving high precision.</p>
 <p>The idea is to train different models to use their outputs in a complementary way to achieve best precision.</p>
 <p>The bad part of using this technique is the high processing time.</p>
-<h5>Bootstrap Aggregation (Bagging): In this case we use always the same type of algorithim (Example: Random Forest and Bagged CART).</h5>
-<h5>Bossting: One algorithim error rate is improved with other algorithim.Examples: C5.0, Stochastic Gradient Boosting and AdaBoost.</h5>
-<h5>Voting: When we use different algorithims and by voting the best for that situation is selected.</h5>
+<ul>
+    <li>Bootstrap Aggregation (Bagging): In this case we use always the same type of algorithim (Example: Random Forest and Bagged CART).</li>
+
+    <li>Bossting: One algorithim error rate is improved with other algorithim.Examples: C5.0, Stochastic Gradient Boosting and AdaBoost.</li>
+    <li>Voting: When we use different algorithims and by voting the best for that situation is selected.</li>
+</ul>
+
+<h2>Dimensionality Reduction</h2>
+<p>It's a data wrangling technique that reduces the dimensionality of a problem, or in other words, some business problems have so much features that becomes impossible to make a model, using this method we can "simplify" the number of dimensions (features/columns).</p>
+<h3>Feature Extraction: I choose which features I must mantain.</h3>
+<p>Examples: Principal Component Analysis (PCA), Multidimensional Scaling and FastMap.</p>
+<h3>Feature Selection: I choose which features I must mantain or.I choose which features I can remove.</h3>
+<p>Examples: Random Forest, Fractal Dimension Calculus, Wrapper.</p>
+<h3>Dimensionality Reduction techniques</h3>
+<ul>
+    <li><u>Missing Values Ratio</u>: I remove Features with biggest missing values.</li>
+    <li><u>Low Variance Filter</u>: I remove features with low variance, because if it has low variance so it will have low power to discriminate behaviours.</li>
+    <li><u>High Correlation Filter</u>: I remove features with high correlation, or in other words, same kind of information.</li>
+    <li><u>Random Forests/Ensemble Trees</u>: An model in an aumatized way select the best features for me, and I use the best features to create the model I want.</li>
+    <li><u>Forward Feature Construction</u>: I will adding each feature by time to check how is the model metrics until find the best combination.</li>
+    <li><u>Backward Feature Elimination</u>: I create the model with all features, and I will removing feature by feature to follow how is the model behavior until find the best combination.</li>
+    <li><u>Principal Component Analysis (PCA)</u>: Non supervisioned algorithim method that help us to find the principal component in a sample of features. We bacisally turns X features into two principal components, representing the information of those X features. <b>To use this method the data MUST BE SCALED!</b></li>
+</ul>
