@@ -8,7 +8,11 @@
 <p>In other words, the preditive models use data from the past to predict what will happen in the future, while the descritive model use the data from the past to understand what happened in the past.</p>
 <p>The predictive model is a approximate mathematical function created with data that can foresee phenomenons.</p>
 <h3>Supervisioned Learning</h3>
+<p>In this type of learning we give a sample of data and the response for a question, the model learns with that data and try to predict the answer for that same question with new data.</p>
 <h3>Non-supervisioned Learning</h3>
+<p>In this type of learning, we don't have the output data, and the algorithim try to split the data into categories.</p>
+<p>Hard clustering: The output says if a point is from one category or other.</p>
+<p>Soft clustering: We calculate the probability of a point be in one category or other.</p>
 <h4>Instance based methods</h4>
 <p>The idea of the instance based methods is to storage the training examples the generalization is only made when the new instance is materialized.</p>
 <p>The idea is calculate the distance between the new instance (for example a request) and the training data. The answer is the same as the nearest point in the training data.</p>
@@ -57,10 +61,17 @@
 <h4>Optimization based methods</h4>
 <p>The main objective is to optimize the mathematical function.</p>
 <p>The main algorithms of optimization methods:</p>
-<p>Neural Artifical Networks</p>
-<p>SVM (Support Vector Machines)</p>
+<p>Neural Artifical Networks: Propagation of data between many perpectrons(neurons).</p>
+<p>SVM (Support Vector Machines): It change the dimensions of the data (example: from 2D to 3D) to allow us to draw a line in a way to split data into categories. The biggest difference with Neural Artificial Networks is the existence of Hyperplane (the line that splits the categories).</p>
 <p>The main architectures:</p>
 <p>Convolutional Neural Networks (CNN): Used mostful in computational vision problems.</p>
 <p>Recurrent Neural Networks (RNN): Alows storage info into memory, using those previous results to proccess the next input. An example of use is the suggestion of the next word when someone is typing.</p>
 <p>Kohohen network: The perpectron are handled like a collection.</p>
 <p>Hopfield network.</p>
+<h4>Machine learning with ensemble methoss</h4>
+<p>It's usually used to win data competitions, achieving high precision.</p>
+<p>The idea is to train different models to use their outputs in a complementary way to achieve best precision.</p>
+<p>The bad part of using this technique is the high processing time.</p>
+<h5>Bootstrap Aggregation (Bagging): In this case we use always the same type of algorithim (Example: Random Forest and Bagged CART).</h5>
+<h5>Bossting: One algorithim error rate is improved with other algorithim.Examples: C5.0, Stochastic Gradient Boosting and AdaBoost.</h5>
+<h5>Voting: When we use different algorithims and by voting the best for that situation is selected.</h5>
