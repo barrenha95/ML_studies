@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" modified="2023-12-24T13:16:42.662Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="LXw1_liVUi0kz62AxxVO" version="22.1.11" type="device">
+  <diagram name="Page-1" id="_S6RV-yziM_qcfT2_VIO">
+    <mxGraphModel dx="1843" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-1" value="&lt;h1&gt;Machine Learning Algorithms&lt;/h1&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="360" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-3" value="&lt;h2&gt;Descritive Models&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;dashed=1;" edge="1" parent="1" source="0SRQMukDZuNLTIlFxQ9Z-4" target="0SRQMukDZuNLTIlFxQ9Z-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-4" value="&lt;h2&gt;Predictive Models&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="0SRQMukDZuNLTIlFxQ9Z-3" target="0SRQMukDZuNLTIlFxQ9Z-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="175" as="sourcePoint" />
+            <mxPoint x="520" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-8" value="Look and understand the past" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-10" value="Look the past to predict the future" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="245" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-15" value="&lt;h2&gt;Predictive Models&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="85" y="370" width="360" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-16" value="&lt;h3&gt;Supervisioned &lt;br&gt;Learning&lt;/h3&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="180" y="390" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-17" value="&lt;h3&gt;Non-supervisioned &lt;br&gt;Learning&lt;/h3&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="185" y="541" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-18" value="&lt;p&gt;The model is trained using data from the past and the expected output.&lt;br&gt;It try to answer the question he was trained for.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="525" y="395" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-19" value="&lt;p&gt;In the learning process there is no output examples. It try to split the data into categories by their similarity.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="525" y="546" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;dashed=1;" edge="1" parent="1" source="0SRQMukDZuNLTIlFxQ9Z-16" target="0SRQMukDZuNLTIlFxQ9Z-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="330" as="sourcePoint" />
+            <mxPoint x="595" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;dashed=1;" edge="1" parent="1" source="0SRQMukDZuNLTIlFxQ9Z-17" target="0SRQMukDZuNLTIlFxQ9Z-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="680" as="sourcePoint" />
+            <mxPoint x="625" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-22" value="&lt;h1&gt;Instance based methods&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gather historical data and the processing only happens in the moment a new entry appears.&lt;/li&gt;&lt;li&gt;The categorization is made by the proximity of the new entry and the stored data.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;u&gt;Continuous data&lt;/u&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Euclidian distance (pythagoras theorem)&lt;/li&gt;&lt;li&gt;Manhattan distance (total sum of the difference between the x-coordinates and y-coordinates)&lt;/li&gt;&lt;li&gt;Pearson Correlation (just other example)&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;u&gt;Discrete data&lt;/u&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Same value, distance = 0. Different value, distance = 1.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li&gt;&lt;font color=&quot;#97d077&quot;&gt;&lt;b&gt;Pros&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;No need to know the distribution of the Data;&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;font color=&quot;#ea6b66&quot;&gt;&lt;b&gt;Cons&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;All the data processing happens when a new instance appears;&lt;/li&gt;&lt;li&gt;It could be slow in big data problems.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;Examples&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;k-nearest neighbors algorithm (k-NN)&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="760" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-23" value="&lt;h1&gt;Probabilistic methods&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The probabilistic baynesian methods assumes that the probability of two events happens don&#39;t depends only on their relation but also in the probability of see those events alone.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;color: rgb(151, 208, 119); background-color: initial;&quot;&gt;Pros&lt;/b&gt;&lt;br&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;They are practical machine learning algorithms;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;They are famous because of the &quot;golden rule&quot; (smallest error possible) to evaluate other learning algorithms.&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;Examples&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Naïve Bayes.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="1040" width="760" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-24" value="&lt;h1&gt;Search-based methods&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The search-based methods breaks a complex problem into small problems, making easy to find an answer..&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;color: rgb(151, 208, 119); background-color: initial;&quot;&gt;Pros&lt;/b&gt;&lt;br&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Good to data minning, or in other words: Extraction of informations from data never seen before.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;Examples&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Decision Trees.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="1240" width="760" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-25" value="&lt;h1&gt;Optimization based methods&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The objective is to achieve the best optimization of an mathematical equation.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="1440" width="760" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-26" value="&lt;h2&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Optimization based methods&lt;/font&gt;&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1530" width="740" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-27" value="&lt;h3&gt;Neural Artifical &lt;br&gt;Networks&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;- Perceptrons&lt;/span&gt;&lt;/h3&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="91" y="1600" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-28" value="&lt;h3&gt;Support Vector &lt;br&gt;Machine&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;- Change dimension&lt;br&gt;- Hyperplane&lt;/span&gt;&amp;nbsp;&lt;/h3&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="91" y="1701" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-30" value="&lt;b&gt;Methods&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="116" y="1540" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-31" value="&lt;b&gt;Architetures&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="594" y="1545" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-32" value="&lt;ul&gt;&lt;li&gt;Convolutional Neural Networks (CNN): Computacional Vision Problems&lt;br&gt;&amp;nbsp;&lt;/li&gt;&lt;li&gt;Recurrent Neural Networks (RNN): Storage data into memory using previous results&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="514" y="1582" width="270" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-35" value="&lt;h1&gt;Ensemble methods&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Use of multiple models in a complementary way&lt;/li&gt;&lt;li&gt;High application to win model competitions&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1880" width="760" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-36" value="&lt;h2 style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp; Ensemble Methods&lt;/font&gt;&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="45" y="1970" width="740" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-37" value="&lt;h3&gt;Bagging&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;- Bootstrap aggregation&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;- Same type of algorithm&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;- Example: Random Forest&lt;/span&gt;&lt;/h3&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2010" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-38" value="&lt;h3&gt;Boosting&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;- Error of one algorithm is&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;covered by another.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;- Example: XGBoost&lt;/span&gt;&lt;/h3&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2010" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-39" value="&lt;h3&gt;Voting&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;- Different algorithms&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;- Vote in the best in a situation&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;- Example: Random Forest&lt;/span&gt;&lt;/h3&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="405" y="2130" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-41" value="&lt;h1&gt;Data Wrangling&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;ul&gt;&lt;li&gt;Process of cleaning an dataset&lt;/li&gt;&lt;li&gt;Clean data&lt;/li&gt;&lt;li&gt;Remove null values&lt;/li&gt;&lt;li&gt;Applying patterns&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;Dimensionality Reduction Techniques&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;u&gt;Feature extraction:&lt;/u&gt; I choose the features to maintain&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Principal Component Analysis (PCA);&lt;br&gt;&lt;/li&gt;&lt;li&gt;Multidimensional Scaling.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;u&gt;Feature selection:&lt;/u&gt; I choose which features I can remove&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Random Forest.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="11" y="2280" width="390" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-42" value="&lt;h1&gt;Feature Engineering&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Change of the features in a way it improves the storytelling capacity.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Examples:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Creation of new features.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Dummyfication: Add numeric value to express categories;&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;One-Hot Encoding: Turns categories into 1 and 0 columns.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="458" y="2280" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-43" value="&lt;h2 style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp; Data Wrangling&lt;/font&gt;&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2560" width="760" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-44" value="&lt;div&gt;&lt;b&gt;Dimensionality Reduction Techniques&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="411.5" y="2565" width="227" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0SRQMukDZuNLTIlFxQ9Z-45" value="&lt;ol&gt;&lt;li&gt;&lt;u&gt;Missing Values Ratio:&lt;/u&gt; Remove features with biggest missing values&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;u&gt;Low Variance Filter:&lt;/u&gt; Remove features with low variance.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;u&gt;High Correlation filter:&lt;/u&gt; Remove features with high correlation&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;u&gt;Random Forest:&lt;/u&gt; In an automatized way a model select features for me&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;u&gt;Forward Feature Construction:&lt;/u&gt; Add features individually and check the metrics for each.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;u&gt;Backward Feature Elimination:&lt;/u&gt; Remove features individually and check the metrics for each.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;u&gt;Principal Component Analysis:&lt;/u&gt; Turn a group of features into two principal components that express most of their meaning.&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2600" width="580" height="223" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
